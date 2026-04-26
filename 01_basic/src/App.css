@@ -1,0 +1,68 @@
+/* Reset some default styles */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Center the app */
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg,#4facfe,#00f2fe);
+}
+
+/* Main container */
+div{
+  background: white;
+  padding: 40px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+  width: 320px;
+}
+
+/* Heading */
+h1{
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Counter text */
+p{
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Buttons */
+button{
+  padding: 10px 18px;
+  margin: 8px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* Add button */
+button:first-of-type{
+  background: #28a745;
+  color: white;
+}
+
+/* Remove button */
+button:last-of-type{
+  background: #dc3545;
+  color: white;
+}
+
+/* Hover effect */
+button:hover{
+  transform: scale(1.05);
+  opacity: 0.9;
+}
